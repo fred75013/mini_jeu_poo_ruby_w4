@@ -17,6 +17,7 @@ class Game
     end
 
     def is_still_ongoing?
+        if @human_player.life_points > 0 && 
     end
         
 
